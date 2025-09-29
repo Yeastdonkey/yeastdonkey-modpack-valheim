@@ -1,0 +1,112 @@
+schema: v1
+defaults:
+  extract_to: pack/BepInEx/plugins
+  allow_prerelease: false
+
+mods:
+  # GitHub release
+  - name: ValheimPlus
+    source: github
+    repo: Grantapher/ValheimPlus
+    tag: 0.9.17.0-alpha02
+    asset_glob: "*ValheimPlus*.*"
+    url: https://github.com/Grantapher/ValheimPlus/releases/tag/0.9.17.0-alpha02
+
+  - name: BepInEx
+    source: github
+    repo: BepInEx/BepInEx
+    asset_glob: "BepInEx_x64_*.zip"
+    link: "https://github.com/BepInEx/BepInEx"
+
+
+  # Thunderstore (latest)
+  - name: Server_devcommands
+    source: thunderstore
+    namespace: JereKuusela
+    package: Server_devcommands
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/JereKuusela/Server_devcommands/
+
+  - name: Ship_Stats
+    source: thunderstore
+    namespace: Azumatt
+    package: Ship_Stats
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/Azumatt/Ship_Stats/
+
+  - name: AzuAutoStore
+    source: thunderstore
+    namespace: Azumatt
+    package: AzuAutoStore
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/Azumatt/AzuAutoStore/
+
+  - name: DetailedLevels
+    source: thunderstore
+    namespace: turbero
+    package: DetailedLevels
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/turbero/DetailedLevels/
+
+  - name: HealthDisplay
+    source: thunderstore
+    namespace: JewelHeim
+    package: HealthDisplay
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/JewelHeim/HealthDisplay/
+
+  - name: LazyVikings
+    source: thunderstore
+    namespace: blacks7ar
+    package: LazyVikings
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/blacks7ar/LazyVikings/
+
+  - name: MyLittleUI
+    source: thunderstore
+    namespace: shudnal
+    package: MyLittleUI
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/shudnal/MyLittleUI/
+
+  - name: JsonDotNET
+    source: thunderstore
+    namespace: ValheimModding
+    package: JsonDotNET
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/ValheimModding/JsonDotNET/
+
+  - name: YamlDotNet
+    source: thunderstore
+    namespace: ValheimModding
+    package: YamlDotNet
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/ValheimModding/YamlDotNet/
+
+  - name: ConfigurationManager
+    source: thunderstore
+    namespace: shudnal
+    package: ConfigurationManager
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/shudnal/ConfigurationManager/
+
+  - name: TrashItems
+    source: thunderstore
+    namespace: virtuaCode
+    package: TrashItems
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/virtuaCode/TrashItems/
+
+  - name: AzuExtendedPlayerInventory
+    source: thunderstore
+    namespace: Azumatt
+    package: AzuExtendedPlayerInventory
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/Azumatt/AzuExtendedPlayerInventory/
+
+  - name: FirstPersonMode
+    source: thunderstore
+    namespace: Azumatt
+    package: FirstPersonMode
+    version: latest
+    url: https://thunderstore.io/c/valheim/p/Azumatt/FirstPersonMode/

@@ -1,0 +1,7 @@
+﻿{
+  "name": "LazyVikings",
+  "description": "A mod that automates your Kilns, Smelters, BlastFurnaces, SpinningWheels, Windmills, Beehives, SapCollectors, Fermenters, EitrRefineries, HotTubs, CookingStations, Ovens, Fire pits and other light sources.",
+  "version_number": "1.2.2",
+  "website_url": "https://www.nexusmods.com/valheim/mods/2429?tab=bugs",
+  "dependencies": ["denikson-BepInExPack_Valheim-5.4.2333"]
+}

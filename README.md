@@ -20,7 +20,8 @@ Small, stable set of quality-of-life tweaks with a few light balance adjustments
 1. Download the latest zip from [Releases](https://github.com/Yeastdonkey/yeastdonkey-modpack-valheim/releases)
 2. Close Valheim and [backup](https://help.steampowered.com/en/faqs/view/4593-5CB7-DC3C-64F0#:~:text=Creating%20Backup%20Files) your Valheim folder.
 3. Unzip the archive you downloaded. *(optional: [choose what to install](#optional-choose-what-to-install))*
-4. Drag the extracted contents into your Valheim base directory and allow merge/overwrite. If prompted, replace all files.
+4. If you already have a `BepInEx` folder in your Valheim directory, delete the `BepInEx/plugins` folder before copying. This prevents mixing old mods with the pack. *(Back up any plugins you want to keep that are not included in the pack)*
+5. Drag the extracted contents into your Valheim base directory and allow merge/overwrite. If prompted, replace all files.
 
 Steam (Windows) default:
 `C:\Program Files (x86)\Steam\steamapps\common\Valheim`

@@ -1,0 +1,8 @@
+{
+  "name": "GrassTweaks",
+  "version_number": "0.5.0",
+  "website_url": "https://www.nexusmods.com/valheim/mods/306",
+  "description": "Grass Tweaks from aedenthorn (Nexus reupload, Bog Witch / rebuild). Lets you tweak grass settings either to increase FPS or improve visual aesthetics.",
+  "dependencies": [
+  ]
+}

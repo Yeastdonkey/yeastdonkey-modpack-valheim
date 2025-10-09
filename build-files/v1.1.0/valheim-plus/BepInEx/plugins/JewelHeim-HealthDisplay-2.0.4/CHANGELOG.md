@@ -1,0 +1,20 @@
+- 2.0.4
+- Update ServerSync
+- 2.0.3
+  - Update for Valheim 0.217.46 
+- 2.0.2
+  - Update for Valheim 0.217.28 and update ServerSync internally
+- 2.0.1
+    - Update for Valheim 0.217.22 
+- 2.0.0
+    - Updated and reworked the internal code to be easier to maintain and more compatible with other mods. 
+- 1.0.4
+    - Fixed for Valheim 0.214.2
+- 1.0.3
+    - Fixed issue with boss health bars
+    - Fixed compatibility with Groups mod
+    - Update README.md file with configuration options listing.
+- 1.0.1/1.0.2
+    - Mistlands Update
+- 1.0.0
+    - Initial Release
